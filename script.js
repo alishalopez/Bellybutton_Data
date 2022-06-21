@@ -10,5 +10,6 @@ function updatePage() {
   console.log(selectedOption);
 };
 
+
 // print to the browser console when a dropdown menu item is selected
 console.log(d3.selectAll("#menu").node().id);
