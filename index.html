@@ -26,17 +26,12 @@
         <p>Use the interactive charts below to explore the dataset</b></p>
       </div>
     </div>
-    <center>
-    <p>Here you can see that we have completed a panel for demographic information for our volumteers. 
-      Then used that panel to customize visuals of the bacterial data for each volunteer.
-      We have identified the top 10 bacterial species in their belly buttons with a visual representaion to better allow the volumteers to identify whether that species is found in their navel. 
-    </p>
+
     <div class="row">
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
-          <!-- <select id="selDataset"></select> -->
-          <<select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
@@ -47,25 +42,20 @@
       </div>
       <div class="col-md-10">
         <div id="bar"></div>
-        <p>Here you can see the top 10 bacteria that showed up for the selected volunteer</p>
-        <p></p>
       </div>
       <div class="col-md-12">
         <div id="gauge"></div>
-        <p> Here you can see the number of washes completed weekly for the selected volunteer<br><br></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
-        <p>Here you can see the volume of specific bacteria ID numbers for the selected volunteer</p>
       </div>
     </div>
   </div>
-</center>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
+  <script src="chart.js"></script>
 
 </body>
 
