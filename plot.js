@@ -14,6 +14,7 @@ function init() {
   })}
   
   init();
+  
 
   // It takes in an argument, named newSample, and logs it to the browser console
   function optionChanged(newSample) {
