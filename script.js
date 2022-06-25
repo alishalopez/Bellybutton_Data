@@ -1,4 +1,4 @@
-//  change creates an event listener that triggers the custom function
+//  'change' creates an event listener that triggers the custom function
 d3.selectAll("body").on("change", updatePage);
 
 function updatePage() {
